@@ -1,0 +1,110 @@
+ html {
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #0F0F0F;
+} 
+
+#title {
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFD200;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 29px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+button {
+    background: #FFD200;
+    box-shadow: 0px 4px 12 px rgba(47, 155n, 255, 0.1);
+    border-radius: 8px;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    line-height: 16px;
+    color: black;
+    border: none;
+    padding: 9px 24px;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: 250ms ease;
+    font-weight: 700px;
+    outline: black;
+}
+
+button:hover {
+    background: #d1af0d;
+    box-shadow: 0px 4px 12 px rgba(43, 54, 65, 0.1);
+}
+
+button:active {
+    transform: scale(.95);
+}
+
+#category {
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    color: #ffff;
+    padding: 6px 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 250ms ease;
+    text-align: center;
+}
+
+#category-title {
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFD200;
+    padding: 6px 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: 250ms ease;
+    text-align: center;
+}
+
+#frame1 {
+    background-color: #0F0F0F;
+    margin: auto auto;
+    overflow: hidden;
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.capture{
+    background-color: #4CAF50;
+}
+
+.capture:hover{
+    background-color: #7C9A17;
+}
+
+.button-list{
+    display: flex;
+    justify-content: center;
+}
